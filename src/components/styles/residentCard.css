@@ -1,0 +1,62 @@
+.resident__article {
+    width: 250px;
+    background-color: #072226;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.resident__photo {
+    position: relative;
+}
+
+.resident__status {
+    position: absolute;
+    background-color: #072226;
+    top: 10%;
+    padding: 5px 14px;
+    border-radius: 0 7px 7px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.resident__circle {
+    background-color: gray;
+    width: 15px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.resident__name {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.resident__article hr {
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    width: 80%;
+    margin: 0 auto;
+}
+
+.Alive {
+    background-color: #04A105;
+}
+
+.Dead {
+    background-color: red;
+}
+
+.resident__list {
+    padding: 15px;
+}
+
+.resident__item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.resident__item span:first-child {
+    padding-left: 10px;
+    color: rgba(128, 128, 128, 0.705);
+}
