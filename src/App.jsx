@@ -56,7 +56,7 @@ function App() {
           </form>
           {
             hasError || finder==='0' ?
-              <h2 className='app__error'>❌ This location do not exist ❌</h2>
+              <h2 className='app__error'>❌ This location does not exist ❌</h2>
             :
             <>
               <LocationCard
